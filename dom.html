@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p id="para" class="para">
+<span>welcome to guvi...........</span>
+<span >this is the dom class</span>
+</p>
+
+   <p class="para"> hello </p>
+   <ol>
+        <li id="name"></li>
+        <li id="age"></li>
+        <li id="email"></li>
+   </ol> <br/>
+<table id = "Table" border = "2">
+    <tr>
+        <td> AAA </td>
+        <td> 25 </td>
+    </tr>
+    <tr>
+        <td> BBB </td>
+        <td> 36</td>
+    </tr>
+</table> <br/>
+<button onclick = "Addrow()"> Add row </button> <br/>
+
+<!--Select Country-->
+<h4>ADD TYPED COUNTRY TO SELECT BOX...</h4>
+<div>
+    <label>Select Country</label>
+    <select id = "country">
+        <option>India</option>
+        <option>USA</option>
+    </select> <br/>
+
+    <label>Type to Add Country</label>
+    <input type = "text" id = "addcountry"/> <br/> <br/>
+
+    <button onclick="addcountry()"> Add Country</button>
+    <button onclick="removecountry()">  Delete Country</button>
+</div>  
+
+<!--EVENTS-->
+<h4>Events</h4>
+Events: <input type = "text" onblur="evenTiggered(this)"  onfocus="evenTiggered(this)"
+onselect="evenTiggered(this)" onkeydown="evenTiggered(this)" onkeyup="evenTiggered(this)"/> <br/> <br/>  
+
+<button type ="button" onclick = "eventButton()">CLICK ME </button>
+
+<h3>Retrive first and last element for a parent</h3>
+<div id="appendData">
+    <ul>
+        <li>Home</li>
+    <li>Servies</li>
+    <li>Product</li>
+    </ul>
+    
+</div>
+
+
+</body>
+<script src="./dom.js"></script>
+</html>

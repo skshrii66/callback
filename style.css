@@ -1,0 +1,14 @@
+div{
+   background-color: blueviolet;
+   width: 500px;
+   padding: 10px;
+   margin: 20px; 
+   text-align: center;
+   text-transform: uppercase;
+   box-shadow: 5px 10px 15px 20px black rgb(38,31,251,);
+}
+
+p{
+   border: 5px solid black;
+}
+
